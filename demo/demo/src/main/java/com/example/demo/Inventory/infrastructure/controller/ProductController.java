@@ -74,7 +74,7 @@ public class ProductController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping
+    @GetMapping("/")
     public ResponseEntity<List<ProductResponse>> list() {
         List<Product> products = listHandler.handle(new ListProductQuery());
         List<ProductResponse> responses = products.stream()
