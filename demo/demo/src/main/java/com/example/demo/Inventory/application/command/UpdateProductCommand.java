@@ -23,10 +23,9 @@ public class UpdateProductCommand {
 
     public UpdateProductCommand() {}
 
-    public UpdateProductCommand(long Id, String name, String description, Double price) {
+    public UpdateProductCommand(long Id, String name, Double price) {
         this.Id = Id;
         this.name = name;
-        this.description = description;
         this.price = price;
     }
     

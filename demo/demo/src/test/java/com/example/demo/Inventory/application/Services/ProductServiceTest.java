@@ -1,13 +1,11 @@
 package com.example.demo.Inventory.application.Services;
 
 import com.example.demo.Inventory.domain.repository.ProductRepositoryImpl;
-import com.example.demo.Inventory.application.Services.ProductService;
 import com.example.demo.Inventory.domain.model.Product;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;

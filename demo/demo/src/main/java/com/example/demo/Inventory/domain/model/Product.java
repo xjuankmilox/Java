@@ -22,6 +22,11 @@ public class Product {
         setName(name);
         setPrice(price);
     }
+    public Product(Long Id, Double price,String name) {
+        this.Id = Id;
+        setName(name);
+        setPrice(price);
+    }
     public Long getId() { return Id; }
     public void setId(Long Id) {
         this.Id = Id;
